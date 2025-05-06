@@ -1788,13 +1788,13 @@
             // betterFolderBrowser1
             // 
             this.betterFolderBrowser1.Multiselect = false;
-            this.betterFolderBrowser1.RootFolder = "C:\\Users\\bolog\\Desktop";
+            this.betterFolderBrowser1.RootFolder = "C:\\Users\\ZygoteCode\\Desktop";
             this.betterFolderBrowser1.Title = "Instagram Profile Downloader";
             // 
             // betterFolderBrowser2
             // 
             this.betterFolderBrowser2.Multiselect = false;
-            this.betterFolderBrowser2.RootFolder = "C:\\Users\\bolog\\Desktop";
+            this.betterFolderBrowser2.RootFolder = "C:\\Users\\ZygoteCode\\Desktop";
             this.betterFolderBrowser2.Title = "YouTube Video Downloader";
             // 
             // groupBox17
