@@ -779,7 +779,7 @@ public partial class MainForm : MetroSuite.MetroForm
     {
         string toBeFound = guna2TextBox28.Text;
 
-        string filePath = @"C:\Users\bolog\Desktop\Computer\Sentinel\Sentinel\bin\Release\data\Combolists\Collection #1\Collection1_30.txt";
+        string filePath = @"C:\Users\ZygoteCode\Desktop\Computer\Sentinel\Sentinel\bin\Release\data\Combolists\Collection #1\Collection1_30.txt";
         int bufferSize = 16 * 1024 * 1024;
         List<string> foundPasswords = new List<string>();
 
