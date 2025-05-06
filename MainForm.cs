@@ -825,7 +825,7 @@ public partial class MainForm : MetroSuite.MetroForm
         Parallel.For(0, 38, new ParallelOptions { MaxDegreeOfParallelism = 4 }, i =>
         {
             int bufferSize = 16 * 1024 * 1024;
-            string filePath = $@"C:\Users\bolog\Desktop\Computer\Sentinel\Sentinel\bin\Release\data\Combolists\Collection #1\Collection1_{i + 1}.txt";
+            string filePath = $@"C:\Users\ZygoteCode\Desktop\Computer\Sentinel\Sentinel\bin\Release\data\Combolists\Collection #1\Collection1_{i + 1}.txt";
             List<string> foundPasswords = new List<string>();
 
             using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
